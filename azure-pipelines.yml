@@ -21,7 +21,7 @@ steps:
   displayName: 'Use .NET Core SDK 3.1.300'
   inputs:
     packageteyps: sdk
-    version: '$(dontnetSdkVersion)'
+    version: '$(dotnetSdkVersion)'
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
